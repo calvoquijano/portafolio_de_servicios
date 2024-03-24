@@ -1,0 +1,11 @@
+.header-home{
+    background-color: var(--amarillo-claro);
+    padding: 2rem;
+    .border-rojo{
+        border: 3px solid var(--naranja);
+        .header-banner{
+            margin: 10px 0;
+            border: 1px dashed var(--morado);
+        }
+    }
+}

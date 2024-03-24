@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+:root {
+  /*Colores primarios*/
+  --negro: #3c3d37;
+  --blanco: #f6f6f6;
+  --blanco-real: #ffffff;
+  --rojo: #d44246;
+  --azul: #4db6c3;
+  --violeta: #a67dfe;
+  --amarillo: #fed802;
+  --verde: #489f80;
+  /*Colores secundarios*/
+  --beige: #e8dbc8;
+  --aguamarina: #a1ecce;
+  --verde-claro: #faffef;
+  --amarillo-claro: #fff9f0;
+  --verde-opaco: #abab6c;
+  --naranja: #fd4e22;
+  --azul-oscuro: #2b8395;
+  --morado: #764572;
+  --amarillo-oscuro: #e8ac57;
+  --cafe: #be5b44;
+  --rosa: #fff8fb;
+  --azul-claro: #f0faff;
+  /*Fuentes*/
+  --h1: 400 4rem "Arvo", sans-serif;
+  --h2: 400 3.4rem "Arvo", sans-serif;
+  --h3: 400 2.8rem "Arvo", sans-serif;
+  --h4: 400 2.4rem "Arvo", sans-serif;
+  --h5: 400 2.2rem "Arvo", sans-serif;
+  --h6: 400 1.4rem "Arvo", sans-serif;
+  --p: 400 1.2rem "Zilla Slab", sans-serif;
+  --p-l: 300 1.2rem "Zilla Slab", sans-serif;
+  --p-m: 500 1.2rem "Zilla Slab", sans-serif;
+  --p-b: 700 1.2rem "Zilla Slab", sans-serif;
+  /*Tamaños*/
+  --tamano-1: 4rem;
+  --tamano-2: 3.4rem;
+  --tamano-3: 2.8rem;
+  --tamano-4: 2.4rem;
+  --tamano-5: 2.2rem;
+  --tamano-6: 1.8rem;
+  --tamano-7: 1.2rem;
+  /*Sombras*/
+  --elevation-1: 1px 1px 1px var(--negro);
+  --elevation-2: 2px 4px 4px var(--negro);
+  --elevation-3: 5px 4px 8px var(--negro);
+  --inset-1: inset 2px 4px 4px var(--negro);
+}

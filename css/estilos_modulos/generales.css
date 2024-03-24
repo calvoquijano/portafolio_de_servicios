@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url("../../images/bg/bg_anuncios.png") repeat;
+  background-size: 800px;
+}
+nav {
+  background-color: var(--beige);
+}
+h1 {
+  font: var(--h1);
+  color: var(--rojo);
+}
+h2 {
+  font: var(--h2);
+  color: var(--rojo);
+}
+h3 {
+  font: var(--h3);
+  color: var(--rojo);
+}
+h4 {
+  font: var(--h4);
+  color: var(--rojo);
+}
+h5 {
+  font: var(--h5);
+  color: var(--rojo);
+}
+h6 {
+  font: var(--h6);
+  color: var(--rojo);
+}
+p {
+  font: var(--p);
+}
+b {
+  font: var(--p-b);
+}
+footer {
+  background-color: var(--negro);
+}
+/**Tarjetas**/
+.tarjeta-grande {
+  border-radius: 0;
+  border: 0.1rem dashed var(--rojo);
+  background-color: transparent;
+  img {
+    border-radius: 0;
+    width: 100%;
+  }
+  .cuerpo-tarjeta {
+    border-bottom: 1px solid var(--azul);
+    border-left: 1px solid var(--azul);
+    border-right: 1px solid var(--azul);
+    margin-top: -2px;
+    background-color: var(--blanco);
+    .texto-tarjeta {
+      border: 1px dashed var(--cafe);
+      padding: 0.5rem;
+    }
+  }
+}
+
+/**Botones y links**/
+.btn-general{
+  color: var(--blanco);
+  background-color: var(--azul);
+  border: 2px solid var(--blanco-real);
+  border-radius: 0;
+  font: var(--p-b);
+  box-shadow: var(--elevation-2);
+  padding: var(--tamano-7) var(--tamano-4);
+  &:hover {
+    color: var(--beige);
+    background-color: var(--azul-oscuro);
+    border: 2px solid var(--beige);
+    box-shadow: var(--elevation-1);
+  }
+}
+.btn-violeta {
+  background-color: var(--violeta);
+  &:hover {
+    background-color: var(--morado);
+  }
+}
+.vinculo-general{
+  font: var(--h6);
+  color: var(--azul);
+  text-decoration: underline;
+  &:hover {
+    color: var(--azul-oscuro);
+  }
+}
+
+/*Iconos*/
+i{
+  vertical-align: middle;
+  &.ico-descarga{
+    content: url('../../images/icons/download.svg');
+  }
+  &.ico-flecha-azul{
+    content: url('../../images/icons/arrow_forward.svg');
+  }
+}
