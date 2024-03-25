@@ -1,0 +1,13 @@
+.menu-calvo{
+    background-color: var(--beige);
+}
+.dropdown-nav-submenu{
+    background: transparent;
+    border: none;
+}
+.menu-hamburguesa{
+    border: none;
+    &:focus{
+        box-shadow: 0 0 0;
+    }
+}

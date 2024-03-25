@@ -66,32 +66,41 @@ footer {
 }
 
 /**Botones y links**/
-.btn-general{
+.btn-general, .btn-general:visited{
   color: var(--blanco);
   background-color: var(--azul);
   border: 2px solid var(--blanco-real);
   border-radius: 0;
   font: var(--p-b);
   box-shadow: var(--elevation-2);
-  padding: var(--tamano-7) var(--tamano-4);
-  &:hover {
-    color: var(--beige);
+  padding: var(--tamano-7) var(--tamano-6) !important;
+  &:hover, &:active, &:focus {
+    color: var(--beige) !important;
     background-color: var(--azul-oscuro);
     border: 2px solid var(--beige);
     box-shadow: var(--elevation-1);
   }
 }
-.btn-violeta {
+.btn-violeta, .btn-violeta:visited {
   background-color: var(--violeta);
-  &:hover {
+  &:hover, &:active, &:focus {
     background-color: var(--morado);
   }
 }
-.vinculo-general{
+.btn-menu-nav, .btn-menu-nav:visited {
+  background-color: var(--beige);
+  font: var(--p-nav);
+  color: var(--rojo);
+  &:hover, &:active, &:focus {
+    background-color: var(--beige-oscuro);
+    color: var(--rojo) !important;
+  }
+}
+.vinculo-general, .vinculo-general:visited{
   font: var(--h6);
   color: var(--azul);
   text-decoration: underline;
-  &:hover {
+  &:hover, &:active, &:focus {
     color: var(--azul-oscuro);
   }
 }

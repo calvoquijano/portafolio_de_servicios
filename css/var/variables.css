@@ -12,6 +12,7 @@
   --verde: #489f80;
   /*Colores secundarios*/
   --beige: #e8dbc8;
+  --beige-oscuro: #d5b990;
   --aguamarina: #a1ecce;
   --verde-claro: #faffef;
   --amarillo-claro: #fff9f0;
@@ -34,6 +35,7 @@
   --p-l: 300 1.2rem "Zilla Slab", sans-serif;
   --p-m: 500 1.2rem "Zilla Slab", sans-serif;
   --p-b: 700 1.2rem "Zilla Slab", sans-serif;
+  --p-nav: 700 1rem "Zilla Slab", sans-serif;
   /*Tamaños*/
   --tamano-1: 4rem;
   --tamano-2: 3.4rem;
@@ -44,7 +46,7 @@
   --tamano-7: 1.2rem;
   /*Sombras*/
   --elevation-1: 1px 1px 1px var(--negro);
-  --elevation-2: 2px 4px 4px var(--negro);
+  --elevation-2: 2px 2px 4px var(--negro);
   --elevation-3: 5px 4px 8px var(--negro);
   --inset-1: inset 2px 4px 4px var(--negro);
 }
