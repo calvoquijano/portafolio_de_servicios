@@ -36,8 +36,8 @@ cambiarMenu.innerHTML += `
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav col-lg-6 d-flex justify-content-around">
-            <li class="nav-item dropdown">
+          <ul class="navbar-nav col-lg-8 d-flex">
+            <li class="nav-item dropdown mx-0 mx-lg-1">
               <a
                 class="nav-link dropdown-toggle btn btn-general btn-menu-nav mb-2 mb-lg-0"
                 href="#"
@@ -73,18 +73,18 @@ cambiarMenu.innerHTML += `
                 </li>
               </ul>
             </li>
-            <li class="nav-item mb-2 mb-lg-0">
+            <li class="nav-item mb-2 mb-lg-0 mx-0 mx-lg-1">
               <a class="nav-link btn btn-general btn-menu-nav" href="${datosMenu.quienSoyURL}"
                 >Quien soy</a
               >
             </li>
-            <li class="nav-item mb-2 mb-lg-0">
+            <li class="nav-item mb-2 mb-lg-0 mx-0 mx-lg-1">
               <a class="nav-link btn btn-general btn-menu-nav" href="#"
                 >BlogeRino</a
               >
             </li>
           </ul>
-          <div class="d-flex justify-content-around col-lg-6">
+          <div class="d-flex justify-content-around col-lg-4">
             ${datosMenu.calamar}
             ${datosMenu.camaramantis}
             ${datosMenu.linkedin}
