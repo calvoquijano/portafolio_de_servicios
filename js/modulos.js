@@ -1,4 +1,4 @@
 //Menú
-import { cambiarMenu, datosMenu } from "./secciones/header.js";
+import { cambiarMenu, datosMenu } from "./modulos/nav.js";
 //Footer
-//import { cambiarFooter, datosFooter } from "./secciones/footer.js";
+import { cambiarFooter, datosFooter } from "./modulos/footer.js";
