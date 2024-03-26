@@ -7,9 +7,6 @@ body {
   background: url("../../images/bg/bg_anuncios.png") repeat;
   background-size: 800px;
 }
-nav {
-  background-color: var(--beige);
-}
 h1 {
   font: var(--h1);
   color: var(--rojo);
@@ -39,9 +36,6 @@ p {
 }
 b {
   font: var(--p-b);
-}
-footer {
-  background-color: var(--negro);
 }
 /**Tarjetas**/
 .tarjeta-grande {
@@ -113,5 +107,11 @@ i{
   }
   &.ico-flecha-azul{
     content: url('../../images/icons/arrow_forward.svg');
+  }
+  &.ico-wa{
+    content: url('../../images/icons/wa.svg');
+  }
+  &.ico-mail{
+    content: url('../../images/icons/mail.svg');
   }
 }

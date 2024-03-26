@@ -1,0 +1,11 @@
+footer {
+    background-color: var(--negro);
+    & .footer-link{
+        color: var(--blanco);
+        text-decoration: none;
+        font: var(--p)
+    }
+    & .btn-violeta{
+        padding: var(--tamano-8) var(--tamano-6) !important;
+    }
+  }
