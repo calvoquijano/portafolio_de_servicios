@@ -1,42 +1,49 @@
-.header-trabajo{
-    
+.header-trabajo {
+  padding: 0;
+  & img {
+    width: 100%;
+  }
+  & p.cita {
+    text-align: right;
+    font: var(--p-b);
+  }
+}
+.header-uno {
+  background-color: var(--amarillo-claro);
+}
+.header-dos {
+  background-color: var(--verde-claro);
+}
+.header-tres {
+  background-color: var(--rosa);
+}
+.header-cuatro {
+  background-color: var(--azul-claro);
+}
+
+.tarjeta-chica {
+  border-radius: 0;
+  border: 0.1rem dashed var(--azul);
+  background-color: var(--blanco);
+  img {
+    border-radius: 0;
+    max-height: 100%;
+    margin-left: var(--tamano-8);
+  }
+  .cuerpo-tarjeta-chica {
+    margin-top: -2px;
+    .texto-tarjeta {
+      border-bottom: 1px dashed var(--cafe);
+      padding: 0.5rem;
+    }
+  }
+}
+.tarjeta-rol {
+  background-color: var(--beige);
+}
+.trabajos-internas{
     padding: 0;
     & img{
         width: 100%;
     }
-    & p.cita{
-        text-align: right;
-        font: var(--p-b);
-    }
-    
 }
-.header-uno{
-    background-color: var(--amarillo-claro);
-}
-.header-dos{
-    background-color: var(--verde-claro);
-}
-.header-tres{
-    background-color: var(--rosa);
-}
-.header-cuatro{
-    background-color: var(--azul-claro);
-}
-
-.tarjeta-chica {
-    border-radius: 0;
-    border: 0.1rem dashed var(--azul);
-    background-color: var(--blanco);
-    img {
-      border-radius: 0;
-      width: 40%;
-      margin-left: var(--tamano-8);
-    }
-    .cuerpo-tarjeta-chica {
-      margin-top: -2px;
-      .texto-tarjeta {
-        border-bottom: 1px dashed var(--cafe);
-        padding: 0.5rem;
-      }
-    }
-  }
