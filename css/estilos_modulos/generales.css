@@ -98,7 +98,20 @@ b {
     color: var(--azul-oscuro);
   }
 }
-
+.tarjeta-progreso{
+  background-color: var(--blanco);
+  border: 1px dashed var(--azul);
+}
+.barra-progreso{
+  height: var(--tamano-8); 
+  width: 80%;
+  border-radius: 0;
+  background-color: var(--beige);
+  box-shadow: var(--elevation-1);
+  & .progress-bar{
+    background-color: var(--rojo);
+  }
+}
 /*Iconos*/
 i{
   vertical-align: middle;
@@ -113,5 +126,59 @@ i{
   }
   &.ico-mail{
     content: url('../../images/icons/mail.svg');
+  }
+  &.ico-figma{
+    content: url('../../images/icons/simple-icons_figma.svg');
+  }
+  &.ico-xd{
+    content: url('../../images/icons/simple-icons_xd.svg');
+  }
+  &.ico-sketch{
+    content: url('../../images/icons/simple-icons_sketch.svg');
+  }
+  &.ico-maze{
+    content: url('../../images/icons/maze.svg');
+  }
+  &.ico-html{
+    content: url('../../images/icons/simple-icons_html5.svg');
+  }
+  &.ico-css{
+    content: url('../../images/icons/simple-icons_css3.svg');
+  }
+  &.ico-js{
+    content: url('../../images/icons/simple-icons_javascript.svg');
+  }
+  &.ico-react{
+    content: url('../../images/icons/simple-icons_react.svg');
+  }
+  &.ico-ts{
+    content: url('../../images/icons/cib_typescript.svg');
+  }
+  &.ico-bootstrap{
+    content: url('../../images/icons/simple-icons_bootstrap.svg');
+  }
+  &.ico-sass{
+    content: url('../../images/icons/simple-icons_sass.svg');
+  }
+  &.ico-java{
+    content: url('../../images/icons/la_java.svg');
+  }
+  &.ico-sql{
+    content: url('../../images/icons/mysql.svg');
+  }
+  &.ico-ae{
+    content: url('../../images/icons/simple-icons_after.svg');
+  }
+  &.ico-psd{
+    content: url('../../images/icons/simple-icons_photoshop.svg');
+  }
+  &.ico-premiere{
+    content: url('../../images/icons/simple-icons_premiere.svg');
+  }
+  &.ico-ai{
+    content: url('../../images/icons/simple-icons_illustrator.svg');
+  }
+  &.ico-world{
+    content: url('../../images/icons/bx_world.svg');
   }
 }
