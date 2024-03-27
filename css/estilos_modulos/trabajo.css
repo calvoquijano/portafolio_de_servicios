@@ -27,14 +27,12 @@
   background-color: var(--blanco);
   img {
     border-radius: 0;
-    max-height: 100%;
-    margin-left: var(--tamano-8);
   }
   .cuerpo-tarjeta-chica {
-    margin-top: -2px;
+    margin: var(--tamano-8);
     .texto-tarjeta {
       border-bottom: 1px dashed var(--cafe);
-      padding: 0.5rem;
+      padding: var(--tamano-8);
     }
   }
 }
