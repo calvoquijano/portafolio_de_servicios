@@ -5,7 +5,8 @@
 }
 body {
   background: url("../../images/bg/bg_anuncios.png") repeat;
-  background-size: 800px;
+  background-size: 1080px;
+  overflow-x: hidden;
 }
 h1 {
   font: var(--h1);
@@ -98,6 +99,7 @@ b {
     color: var(--azul-oscuro);
   }
 }
+/*Barra de progreso*/
 .tarjeta-progreso{
   background-color: var(--blanco);
   border: 1px dashed var(--azul);
@@ -111,6 +113,52 @@ b {
   & .progress-bar{
     background-color: var(--rojo);
   }
+}
+/*Colores de texto*/
+.textos-azules{
+  color: var(--azul);
+}
+/*Colores y backgrounds*/
+.header-cero {
+  background-color: var(--blanco);
+}
+.header-uno {
+  background-color: var(--amarillo-claro);
+}
+.header-dos {
+  background-color: var(--verde-claro);
+}
+.header-tres {
+  background-color: var(--rosa);
+}
+.header-cuatro {
+  background-color: var(--azul-claro);
+}
+.bg-anuncios{
+  background: url("../../images/bg/bg_anuncios-nitido.jpg") repeat;
+  background-size: 1080px;
+}
+/*Elevaciones*/
+.elevacion-uno{
+  box-shadow: var(--elevation-1);
+}
+.elevacion-dos{
+  box-shadow: var(--elevation-2);
+}
+.elevacion-tres{
+  box-shadow: var(--elevation-3);
+}
+.elevacion-interna{
+  box-shadow: var(--inset-1);
+}
+.elevacion-interna-externa-uno{
+  box-shadow: var(--inset-1), var(--elevation-1);
+}
+.elevacion-interna-externa-dos{
+  box-shadow: var(--inset-1), var(--elevation-2);
+}
+.elevacion-interna-externa-tres{
+  box-shadow: var(--inset-1), var(--elevation-3);
 }
 /*Iconos*/
 i{

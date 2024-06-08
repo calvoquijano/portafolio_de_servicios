@@ -2,24 +2,14 @@
   padding: 0;
   & img {
     width: 100%;
+    box-shadow: var(--elevation-3);
   }
   & p.cita {
     text-align: right;
     font: var(--p-b);
   }
 }
-.header-uno {
-  background-color: var(--amarillo-claro);
-}
-.header-dos {
-  background-color: var(--verde-claro);
-}
-.header-tres {
-  background-color: var(--rosa);
-}
-.header-cuatro {
-  background-color: var(--azul-claro);
-}
+
 
 .tarjeta-chica {
   border-radius: 0;
@@ -38,10 +28,24 @@
 }
 .tarjeta-rol {
   background-color: var(--beige);
+  box-shadow: var(--elevation-2);
 }
 .trabajos-internas{
     padding: 0;
     & img{
         width: 100%;
     }
+}
+.experiencia{
+  .estudios{
+    background-color: var(--azul-oscuro);
+    box-shadow: var(--inset-1), var(--elevation-3);
+    h6{
+      color: var(--blanco);
+    }
+  }
+  .laboral{
+    background-color: var(--amarillo-claro);
+    box-shadow: var(--inset-1), var(--elevation-3);
+  }
 }

@@ -3,6 +3,7 @@
 :root {
   /*Colores primarios*/
   --negro: #3c3d37;
+  --negro-trans: #3c3d3764;
   --blanco: #f6f6f6;
   --blanco-real: #ffffff;
   --rojo: #d44246;
@@ -46,8 +47,8 @@
   --tamano-7: 1.2rem;
   --tamano-8: 0.8rem;
   /*Sombras*/
-  --elevation-1: 1px 1px 1px var(--negro);
-  --elevation-2: 2px 2px 4px var(--negro);
-  --elevation-3: 5px 4px 8px var(--negro);
-  --inset-1: inset 2px 4px 4px var(--negro);
+  --elevation-1: 1px 1px 1px var(--negro-trans);
+  --elevation-2: 2px 2px 4px var(--negro-trans);
+  --elevation-3: 4px 4px 8px var(--negro-trans);
+  --inset-1: inset 2px 4px 4px var(--negro-trans);
 }

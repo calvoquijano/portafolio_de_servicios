@@ -1,0 +1,73 @@
+.animacion-primer {
+    animation: animacion-primer linear forwards;
+    animation-timeline: scroll();
+    animation-range: entry;
+  }
+  @keyframes animacion-primer {
+    from {
+      transform: translatey(0);
+    }
+    to {
+      transform: translatey(10%);
+    }
+  }
+  .animacion-transparente {
+    animation: animacion-transparente linear forwards;
+    animation-timeline: view();
+    animation-range: entry;
+  }
+  @keyframes animacion-transparente {
+    
+    0% {
+      opacity: 0;
+    }
+  }
+.animacion-bloques {
+  animation: animacion-bloques linear forwards;
+  animation-timeline: view();
+  animation-range: entry;
+}
+@keyframes animacion-bloques {
+  from {
+    transform: translatey(400px);
+  }
+  to {
+    transform: translatey(0px);
+  }
+}
+.animacion-bloques-izq {
+  animation: animacion-bloques-izq linear forwards;
+  animation-timeline: view();
+  animation-range: entry;
+}
+@keyframes animacion-bloques-izq {
+  from {
+    transform: translatex(-400px);
+  }
+  to {
+    transform: translatex(0px);
+  }
+}
+
+.animacion-bloques-der {
+  animation: animacion-bloques-der linear forwards;
+  animation-timeline: view();
+  animation-range: entry;
+}
+@keyframes animacion-bloques-der {
+  from {
+    transform: translatex(400px);
+  }
+  to {
+    transform: translatex(0px);
+  }
+}
+
+.animacion-bounce {
+  animation: animacion-bounce 1s ease ;
+}
+@keyframes animacion-bounce {
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-30px);}
+	60% {transform: translateY(-15px);}
+}

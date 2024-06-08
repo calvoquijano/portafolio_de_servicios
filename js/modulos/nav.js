@@ -1,15 +1,19 @@
 let datosMenu = {
-  logoURL: "images/logo/logotipo_calvo.svg",
+  logoURL: "images/logo/logotipo_portafolio.svg",
   indexURL: "index.html",
   trabajoURLUX: "ux-ui.html",
   trabajoURLWeb: "web.html",
   trabajoURLAni: "animacion-2d.html",
   trabajoURLOtros: "otros.html",
   quienSoyURL: "quien-soy.html",
+  calvo:
+    '<a class="nav-link p-2" href="https://calvoquijano.com/"><img src="images/icons/calvo.svg" alt="Calvo Quijano"/></a>',
   calamar:
-    '<a class="nav-link p-2" href="#"><img src="images/icons/calamar.svg" alt="Calamar Creativo"/></a>',
+    '<a class="nav-link p-2" href="https://calamarcreativo.com/" target="_blank"><img src="images/icons/calamar.svg" alt="Calamar Creativo"/></a>',
   camaramantis:
-    '<a class="nav-link p-2" href="https://www.youtube.com/channel/UCqT90Rw3GaHw7MMPeggKABw" target="_blank"><img src="images/icons/mantis.svg" alt="Cámaramantis"/></a>',
+    '<a class="nav-link p-2" href="https://vimeo.com/camaramantis" target="_blank"><img src="images/icons/mantis.svg" alt="Cámaramantis"/></a>',
+  elefante:
+    '<a class="nav-link p-2" href="https://calvoquijano.com/"><img src="images/icons/elefante.svg" alt="memorias de Elefante"/></a>',
   linkedin:
     '<a class="nav-link p-2" href="https://www.linkedin.com/in/andresdavidquijano/" target="_blank"><img src="images/icons/linkedin.svg" alt="LinkedIn Andrés Quijano"/></a>',
   behance:
@@ -22,7 +26,7 @@ cambiarMenu.innerHTML += `
   
       <div class="container-fluid">
         <a class="navbar-brand" href="${datosMenu.indexURL}"
-          ><img src="${datosMenu.logoURL}"
+          ><img style="max-width: 200px; margin: 5px" src="${datosMenu.logoURL}"
         /></a>
         <button
           class="navbar-toggler menu-hamburguesa"
@@ -58,7 +62,7 @@ cambiarMenu.innerHTML += `
                     >Desarrollador Web</a
                   >
                 </li>
-                <li>
+                <!--<li>
                   <a class="dropdown-item btn btn-general btn-menu-nav" href="${datosMenu.trabajoURLAni}"
                     >Animador 2D</a
                   >
@@ -70,7 +74,7 @@ cambiarMenu.innerHTML += `
                     href="${datosMenu.trabajoURLOtros}"
                     >¿Qué más hago?</a
                   >
-                </li>
+                </li>-->
               </ul>
             </li>
             <li class="nav-item mb-2 mb-lg-0 mx-0 mx-lg-1">
@@ -78,13 +82,10 @@ cambiarMenu.innerHTML += `
                 >Quien soy</a
               >
             </li>
-            <li class="nav-item mb-2 mb-lg-0 mx-0 mx-lg-1">
-              <a class="nav-link btn btn-general btn-menu-nav" href="#"
-                >BlogeRino</a
-              >
-            </li>
           </ul>
           <div class="d-flex justify-content-around col-lg-4">
+            ${datosMenu.calvo}
+            ${datosMenu.elefante}
             ${datosMenu.calamar}
             ${datosMenu.camaramantis}
             ${datosMenu.linkedin}

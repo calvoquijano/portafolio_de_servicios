@@ -1,5 +1,6 @@
 .menu-calvo{
     background-color: var(--beige);
+    box-shadow: var(--elevation-3);
 }
 .dropdown-nav-submenu{
     background: transparent;
